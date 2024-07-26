@@ -1,0 +1,37 @@
+.button-container {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  margin: auto;
+  height: 100vh;
+  align-items: center;
+}
+
+.btn {
+  width: 500px;
+  max-width: 200px;
+  height: 160px;
+  font-size: 20px;
+  font-weight: 300;
+  /* outline: 0px; */
+  border-radius: 10px;
+  border: 0px;
+  /* transition: transform 1000ms; */
+  transition: 800ms;
+  color: grey;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: black;
+}
+
+#cloud:hover {
+  background-color: #64b5f6;
+}
+#enterprise:hover {
+  background-color: #33c733;
+}
+#desktop:hover {
+  background-color: #f76f31;
+}

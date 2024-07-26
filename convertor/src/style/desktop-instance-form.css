@@ -1,0 +1,21 @@
+.input-container {
+  width: 50%;
+  display: grid;
+  margin: auto;
+}
+
+.input-container input {
+  outline: 0px;
+  height: 30px;
+  border: 1px solid grey;
+  margin: 5px 0px;
+  font-size: medium;
+  font-family: sans-serif;
+  padding-left: 5px;
+}
+
+form button {
+  width: 50%;
+  padding: 5px;
+  margin: auto;
+}
